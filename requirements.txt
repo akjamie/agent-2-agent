@@ -1,0 +1,23 @@
+# import below latest packages
+fastapi>=0.118.0
+uvicorn>=0.37.0
+pydantic==2.11.9
+pydantic-settings>=2.2.1
+langchain-core==0.3.76
+langchain==0.3.27
+
+# LangGraph and checkpoint
+langgraph~=0.6.8
+langgraph-checkpoint-postgres==2.0.23
+
+# For Qwen
+langchain-community==0.3.30
+dashscope==1.24.6
+
+# For Deepseek
+langchain-deepseek==0.1.4
+
+
+# For Testing
+jupyterlab
+langchain-tavily>=0.2.11
