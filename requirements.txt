@@ -21,3 +21,6 @@ langchain-deepseek==0.1.4
 # For Testing
 jupyterlab
 langchain-tavily>=0.2.11
+tree-sitter==0.25.2
+tree-sitter-python==0.25.0
+tree-sitter-groovy==0.1.2

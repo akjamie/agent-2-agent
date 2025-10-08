@@ -10,6 +10,11 @@ class Configuration(BaseSettings):
     LANGCHAIN_API_KEY: str = ""
     LANGCHAIN_ENDPOINT: str = ""
 
+    LANGSMITH_API_KEY: str = ""
+    LANGSMITH_TRACING: str = ""
+    LANGSMITH_ENDPOINT: str = ""
+    LANGSMITH_PROJECT: str = ""
+
     class Config:
         env_file = "../../.env"
 
